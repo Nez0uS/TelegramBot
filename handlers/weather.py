@@ -18,5 +18,5 @@ async def handle_city(message: types.Message, state: FSMContext):
     """Обрабатываем ввод города"""
     city = message.text
     # Здесь будет запрос к погодному API
-    await message.answer(f"Погода в {city}: 20°C, солнечно 🌤")
+    await message.answer(f"Погода в ;{city}: 20°C, солнечно 🌤")
     await state.clear()
